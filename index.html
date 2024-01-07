@@ -1,23 +1,46 @@
 <body>
 <header><img src="https://www.madinin-art.net/images/logo_la_lettre_blanc.jpg"/></header>
+
 <h1>MadininApp</h1>
 
 <h2>Comment utiliser l'application</h2>
 <p>
-    <block>MadininApp affiche sur l'écran principale les miniatures des articles de la page d'accueil du site</block>
-    <a href="https://www.madinin-art.net/">Site Madinin'Art</a>
-    La vocation de l'application est de simplifier la création de La Lettre Madinin'Art
+    MadininApp affiche sur l'écran principal les miniatures des articles
+     de la page d'accueil du site.
+    <a href="https://www.madinin-art.net/">Site Madinin'Art</a> 
+    <br />
+    La vocation de l'application est de simplifier la création de La Lettre Madinin'Art.
+</p>
     <img src="ecran-principal.png">
-    <block>Au clic sur le bouton "Ti Pawol A Chef" Un éditeur aux fonctionalités minimales s'ouvre afin de permettre l'insertion d'un message personalisé à la fin de la lettre</block>
-    <block>L'éditeur utilise la police Verdana avec deux tailles de font disponible, et trois couleur.</block>
-    <block>Important afin de permettre un rendu html fidèle au contenu de l'éditeur il faut différencier le fait de faire un nouveau paragraphe avec le fait de passer à la ligne. En effet lors de la génération les deux notions sont interprétés différemment</block>
-    <block>Passage à la ligne : <strong>shift + entrée</strong></block>
-    <block>Nouveau paragraphe : <strong>entrée</strong></block>
-    <block>Des traits horizontaux sont affichés dans l'éditeur afin de permettre la distinction des différents paragraphes</block>
-    <block>Ces traits ne sont pas reproduit dans le rendu html</block>
-
+<p>
+    Au clic sur le bouton "Ti Pawol A Chef" Un éditeur aux fonctionalités minimales s'ouvre
+     afin de permettre l'insertion d'un message personalisé à la fin de la lettre.
+    <br />
+    L'éditeur utilise uniquement la police <strong>Verdana</strong>,
+     les options d'éditions sont les suivantes :
+    <ul>
+        <li> 2 tailles de font</li>
+        <li> Caractère gras</li>
+        <li> 3 couleurs de texte (noir,rouge,vert)</li>
+        <li> alignement horizontal des paragraphes</li>
+    </ul>
+</p>
+<p>
+    <strong>Important : </strong> afin de permettre un rendu html fidèle au contenu de l'éditeur, 
+    il faut faire <strong>la distinction entre un nouveau paragraphe et un saut de ligne. </strong>
+    <br />
+    Lors de la génération les deux notions sont interprétés différemment.
+    <ul>
+        <li>Passage à la ligne, touches: <strong>shift + entrée</strong></li>
+        <li>Nouveau paragraphe, touche : <strong>entrée</strong></li>
+    </ul>
+   
+    Des traits horizontaux sont affichés dans l'éditeur afin de permettre la distinction des différents paragraphes. 
+    <br />
+    Ces traits ne sont pas reproduit dans le rendu html
 </p>
 
+Pour voir un exemple de lettre générée par l'application : <a href ="lettreMadininart.html">Madinin'Art La Lettre</a>
 <h2>Installation</h2>
 
 <p>
@@ -32,14 +55,15 @@ body{
     width:900px;
     margin:auto;
 }
-p{
-    margin:20px;
-}
-block{
-    margin:10px
-}
+
+
 img{
-    margin:20px;
+    margin:50px;
     max-width:900px;
+}
+
+strong{
+    font-size: 17;
+    font-weight: 700;
 }
 </style>
