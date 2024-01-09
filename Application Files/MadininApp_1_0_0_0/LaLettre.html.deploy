@@ -96,11 +96,12 @@
 
         .articles {
             column-count: 2; /* Crée deux colonnes */
+            column-fill:balance-all;
             column-gap: 20px;
         }
 
         .article {
-            break-inside: avoid; /* Évite la coupure des articles à travers les colonnes */
+            break-inside: avoid-column;  /* Évite la coupure des articles à travers les colonnes */
             margin-top: -19px; /* Espace entre les articles */
             margin-bottom: 79px;
             text-align: center;
@@ -215,6 +216,9 @@
         
         <div class="articles">
             <!-- Articles Here -->
+        </div>
+        <div class="article overflow">
+            <!--overflow article here-->
         </div>
         <div class="ti_pawol_a_chef">
             <!-- Two Articles Here -->
