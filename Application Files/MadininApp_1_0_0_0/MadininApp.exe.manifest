@@ -55,14 +55,14 @@
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="MadininApp.exe" size="322048">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="MadininApp.exe" size="315392">
       <assemblyIdentity name="MadininApp" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>a8dqpACqTJF2ckIBJTX280a8WHmhIzUNUO3RbgiR+n8=</dsig:DigestValue>
+        <dsig:DigestValue>XK4hRE+vBBHilv8qdGn8mQSvBXRPZ18DtPzmCrFPemY=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
