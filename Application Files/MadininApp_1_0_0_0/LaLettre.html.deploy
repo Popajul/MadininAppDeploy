@@ -47,7 +47,7 @@
                 width: 900px;
             }
 
-          
+
         .nav-bar {
             background-color: black;
             display: flex;
@@ -71,46 +71,48 @@
             text-align: center;
         }
             /*titre*/
-        .featured-article h1 {
-            font-size: 48px;
-            color: red;
-        }
-        /*category*/
-        .featured-article h3 {
-            font-size: 24px;
-            color: black;
-        }
-        /*auteur*/
-        .featured-article h4 {
-            font-size: 18px;
-            color: black;
-        }
-        .featured-article img {
-            width: 800px;
-        }
-        .featured-article p {
-            font-family: Verdana, sans-serif;
-            font-size: 16px;
-            color: black;
-        }
+            .featured-article h1 {
+                font-size: 48px;
+                color: red;
+            }
+            /*category*/
+            .featured-article h3 {
+                font-size: 24px;
+                color: black;
+            }
+            /*auteur*/
+            .featured-article h4 {
+                font-size: 18px;
+                color: black;
+            }
+
+            .featured-article img {
+                width: 800px;
+            }
+
+            .featured-article p {
+                font-family: Verdana, sans-serif;
+                font-size: 16px;
+                color: black;
+            }
 
         .articles {
             column-count: 2; /* Crée deux colonnes */
-            column-fill:balance-all;
+            column-fill: balance-all;
             column-gap: 20px;
         }
 
         .article {
-            break-inside: avoid-column;  /* Évite la coupure des articles à travers les colonnes */
+            break-inside: avoid-column; /* Évite la coupure des articles à travers les colonnes */
             margin-top: -19px; /* Espace entre les articles */
             margin-bottom: 79px;
             text-align: center;
             width: 430px;
         }
 
-        .article img{
-            width:430px;
-        }
+            .article img {
+                width: 430px;
+            }
 
             .article h4 span a {
                 font-family: Verdana, sans-serif;
@@ -119,6 +121,7 @@
                 color: black;
                 text-decoration: underline;
             }
+
             .article h2 {
                 font-family: Verdana, sans-serif;
                 font-size: 24px;
@@ -130,6 +133,7 @@
                 font-size: 16px;
                 color: black;
             }
+
             .article p {
                 font-family: Verdana, sans-serif;
                 font-size: 16px;
@@ -143,18 +147,20 @@
             font-size: 16px;
             color: black;
         }
-        .actualite span, .actualite strong span{
+
+        .actualite span, .actualite strong span {
             font-family: Verdana, sans-serif !important;
             font-size: 16px !important;
             color: black !important;
         }
+
         .actualite p a:not(.read-more)::before {
             content: '• '; /* Symbole de la puce */
             color: #000; /* Couleur de la puce, ajustez selon vos besoins */
             font-size: 1em; /* Taille de la puce, ajustez selon vos besoins */
             padding-right: 0.5em; /* Espace entre la puce et le texte du lien */
         }
-      
+
         .actualite p a span strong span {
             font-weight: normal;
         }
@@ -179,12 +185,13 @@
         .text-green {
             color: green;
         }
+
         .ti_pawol_a_chef {
             display: flex;
             flex-direction: row;
             justify-content: center; /* Centrer horizontalement */
             align-items: center; /* Centrer verticalement */
-            gap:20px;
+            gap: 20px;
         }
     </style>
 </head>
@@ -213,7 +220,7 @@
         </div>
 
         <div style="height:50px; "></div>
-        
+
         <div class="articles">
             <!-- Articles Here -->
         </div>
